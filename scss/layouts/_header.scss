@@ -1,0 +1,118 @@
+header {
+  background-image: url(../../images/pattern-light-bg.svg),
+    url(../../images/pattern-glow.svg);
+  background-repeat: repeat, no-repeat;
+  background-position: center, top 110px right -550px;
+  padding-bottom: 8rem;
+}
+
+.header__logo {
+  padding-top: 3.2rem;
+  padding-bottom: 3.2rem;
+}
+
+.header__logo__container {
+}
+
+.header__logo-img {
+}
+.header__logo-logo {
+}
+.header__hero {
+  padding-top: 4.8rem;
+}
+.header__hero__container {
+  display: flex;
+  align-items: center;
+  gap: 6.4rem;
+}
+.header__hero__content {
+}
+
+.header__hero__title {
+  margin-bottom: 2.4rem;
+  background: linear-gradient(107.24deg, #fea36f -11.37%, #062630 61.84%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 6.2rem;
+  line-height: 1.2;
+}
+.header__hero__text {
+  width: 100%;
+  max-width: 570px;
+  color: $neutral-700;
+  margin-bottom: 3.2rem;
+}
+
+.header__hero-btn {
+  padding-left: 2.4rem;
+  padding-right: 3.2rem;
+  color: $neutral-900;
+  background-color: $light-salmon-50;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-bottom: 2rem;
+}
+
+.header__hero-btn:hover {
+  background-color: $light-salmon-500;
+}
+
+.btn-text {
+  display: flex;
+}
+
+.header__hero__members {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.members__startext-wrapper {
+}
+
+.hero__members-stars {
+  display: flex;
+  margin-bottom: 4px;
+}
+
+.hero__members-stars-star {
+}
+.hero-right__img {
+  width: 100%;
+  height: auto;
+  border-radius: 1.2rem;
+}
+
+@media screen and (max-width: 850px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  header {
+    background-repeat: repeat, no-repeat;
+    background-position: center, bottom -450px right -470px;
+  }
+  .header__hero {
+    padding-top: 3.2rem;
+  }
+  .header__hero__container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .btn-text {
+    font-size: 1.6rem;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .header__hero__title {
+    font-size: 3.8rem;
+  }
+}

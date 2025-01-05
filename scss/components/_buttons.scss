@@ -1,0 +1,16 @@
+.btn {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-radius: 8px;
+  border: 2px solid $neutral-900;
+  cursor: pointer;
+}
+
+.btn-text::after {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url("../../images/icon-arrow-down.svg");
+  margin-left: 1.6rem;
+}
