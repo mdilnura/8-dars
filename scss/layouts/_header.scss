@@ -103,6 +103,9 @@ header {
 }
 
 @media screen and (max-width: 375px) {
+  .header__hero__title {
+    @include typography("Martian Mono", 3.8rem, 1.2, -0.2rem);
+  }
   .container {
     padding-left: 16px;
     padding-right: 16px;
@@ -111,8 +114,5 @@ header {
     font-size: 1.6rem;
     padding-left: 23px;
     padding-right: 23px;
-  }
-  .header__hero__title {
-    font-size: 3.8rem;
   }
 }
